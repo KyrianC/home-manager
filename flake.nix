@@ -24,7 +24,7 @@
         overlays = [ nixgl.overlay ];
       };
     in {
-      homeConfigurations."eden" =
+      homeConfigurations.kyrian =
         inputs.home-manager.lib.homeManagerConfiguration {
           inherit pkgs;
 
